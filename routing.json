@@ -1,0 +1,46 @@
+{
+  "Name": "Admin",
+  "GlobalProxy": "true",
+  "RouteOrder": "block-proxy-direct",
+  "RemoteDNSType": "DoH",
+  "RemoteDNSDomain": "https://dns.google/dns-query",
+  "RemoteDNSIP": "8.8.8.8",
+  "DomesticDNSType": "DoH",
+  "DomesticDNSDomain": "https://dns.google/dns-query",
+  "DomesticDNSIP": "8.8.8.8",
+  "Geoipurl": "https://github.com/runetfreedom/russia-v2ray-rules-dat/releases/latest/download/geoip.dat",
+  "Geositeurl": "https://github.com/runetfreedom/russia-v2ray-rules-dat/releases/latest/download/geosite.dat",
+  "LastUpdated": "1779990720",
+  "DnsHosts": {},
+  "DirectSites": [
+    "geosite:category-ru",
+    "geosite:google",
+    "geosite:private",
+    "geosite:avito",
+    "geosite:vk",
+    "dns-shop.ru",
+    "noodlemagazine.com",
+    "wuwatracker.com",
+    "firstvds.ru",
+    "ukdevilz.com"
+  ],
+  "DirectIp": [
+    "geoip:ru",
+    "geoip:private"
+  ],
+  "ProxySites": [
+    "geosite:habr",
+    "geosite:telegram",
+    "geosite:youtube",
+    "geosite:instagram",
+    "geosite:twitch"
+  ],
+  "ProxyIp": [],
+  "BlockSites": [
+    "geosite:category-ads-all"
+  ],
+  "BlockIp": [],
+  "DomainStrategy": "IPIfNonMatch",
+  "FakeDNS": "false",
+  "UseChunkFiles": "false"
+}
