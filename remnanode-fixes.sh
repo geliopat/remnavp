@@ -210,6 +210,8 @@ sleep 2
 send -- "\r"
 sleep 2
 send -- "\r"
+sleep 3
+send -- "0\r"
 
 expect {
     eof {
